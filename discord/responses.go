@@ -24,7 +24,7 @@ func helpResponse(isAdmin, isPermissioned bool, CommandPrefix string, commands [
 		}),
 		Description: sett.LocalizeMessage(&i18n.Message{
 			ID:    "responses.helpResponse.SubTitle",
-			Other: "[View the Github Project](https://github.com/denverquane/automuteus) or [Join our Discord](https://discord.gg/ZkqZSWF)\n\nType `{{.CommandPrefix}} help <command>` to see more details on a command!",
+			Other: "Type `{{.CommandPrefix}} help <command>` to see more details on a command!",
 		},
 			map[string]interface{}{
 				"CommandPrefix": CommandPrefix,
